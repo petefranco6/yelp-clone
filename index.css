@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.carousel {
+    background-image: url(pics/pixel-jeff-clipa-s.gif);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_right > a {
+    color: white;
+}
+
+.yelp-img {
+    width: 50%;
+
+}
+
+.search-btn {
+    width: 10%;
+    border-radius: 10px;
+}
+
+.search {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.search-input {
+    margin-top: 2px;
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+}
