@@ -1,0 +1,17 @@
+@import url(navbar.css);
+@import url(cards.css);
+@import url(categories.css);
+
+body {
+    margin: 0;
+}
+
+.carousel {
+    display: flex;
+    background-image: url(../pics/pixel-jeff-clipa-s.gif);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    flex-direction: column;
+
+}

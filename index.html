@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <title>Yelp Clone</title>
   </head>
   <body>
@@ -14,16 +18,181 @@
           <img class="yelp-img" src="pics/yelp-logo-white.png" />
         </div>
         <div class="search">
-          <input placeholder=" tacos, cheap dinner, Max's" class="search-input"/>
-          <input placeholder=" Houston, TX 77002" class="search-input"/>
+          <input
+            placeholder=" tacos, cheap dinner, Max's"
+            class="search-input1"
+          />
+          <input value=" Houston, TX 77002" class="search-input2" />
           <img class="search-btn" src="pics/SearchIcon.png" />
         </div>
         <div class="navbar_right">
           <a>For businesses</a>
           <a>Write a Review</a>
-          <button>Log in</button>
-          <button>Sign Up</button>
+          <button class="login">Log in</button>
+          <button class="signup">Sign Up</button>
         </div>
+      </div>
+      <div class="dropdowns">
+        <select class="restaurants">
+          <option>Restaurants</option>
+          <option>Delivery</option>
+          <option>Burgers</option>
+          <option>Chinese</option>
+          <option>Italian</option>
+        </select>
+        <select class="home-services">
+          <option>Home Services</option>
+          <option>Contracters</option>
+          <option>Electricians</option>
+          <option>Home Cleaners</option>
+          <option>HVAC</option>
+        </select>
+        <select class="auto-services">
+          <option>Auto Services</option>
+          <option>Auto Repair</option>
+          <option>Auto Dealing</option>
+          <option>Bodyshops</option>
+          <option>Car Wash</option>
+        </select>
+        <select class="more">
+          <option>More</option>
+          <option>Dry Cleaning</option>
+          <option>Phone Repair</option>
+          <option>Bars</option>
+          <option>NightLife</option>
+        </select>
+      </div>
+    </div>
+    <h1>Recent Activity</h1>
+    <div class="cards">
+      <div class="card">
+        <div class="author">
+          <h2>dude m.</h2>
+          <p>A cool Restaurant</p>
+        </div>
+        <img src="pics/food-review-1.webp" class="card-img" />
+        <div class="card_info">
+          <i class="material-icons">thumb_up</i>
+        </div>
+      </div>
+      <div class="card">
+        <div class="author">
+          <h2>dude m.</h2>
+          <p>A cool Italian Restaurant</p>
+        </div>
+        <img src="pics/review-2.jpg" class="card-img" />
+        <div class="card_info">
+          <i class="material-icons">thumb_up</i>
+        </div>
+      </div>
+      <div class="card">
+        <div class="author">
+          <h2>dude m.</h2>
+          <p>Wrote a review</p>
+        </div>
+        <img src="pics/review-3.jpg" class="card-img-review" />
+        <div class="card-content">
+            <img src="pics/stars.jpg" class="star-rating" />
+            <p>I hate this food. it stinks!</p>
+        </div>
+        <div class="card_info">
+          <div>icons</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="author">
+          <h2>dude m.</h2>
+          <p>Fruits!</p>
+        </div>
+        <img src="pics/review-4.jpg" class="card-img" />
+        <div class="card_info">
+            <i class="material-icons">thumb_up</i>
+        </div>
+      </div>
+      <div class="card">
+        <div class="author">
+          <h2>dude m.</h2>
+          <p>Wrote a review</p>
+        </div>
+        <img src="pics/review-6b.jpg" class="card-img-review" />
+        <div class="card-content">
+            <img src="pics/stars.jpg" class="star-rating" />
+            <p>I hate this food. it stinks!</p>
+        </div>
+        <div class="card_info">
+          <div>icons</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="author">
+          <h2>dude m.</h2>
+          <p>Another Cool Restaurant</p>
+        </div>
+        <img src="pics/review-5.jpg" class="card-img" />
+        <div class="card_info">
+            <i class="material-icons">thumb_up</i>
+        </div>
+      </div>
+    </div>
+    <div class="categories">
+      <div class="category">
+        <i class="material-icons">dining</i>
+        <div class="card-content">
+          <p>Restaurants</p>
+        </div>
+      </div>
+      <div class="category">
+        <i class="material-icons">shopping_cart</i>
+        <div class="card-content">
+          <p>Shopping</p>
+        </div>
+      </div>
+      <div class="category">
+        <i class="material-icons">sports_bar</i>
+        <div class="card-content">
+          <p>NightLife</p>
+        </div>
+      </div>
+      <div class="category">
+        <i class="material-icons">directions_bike</i>
+        <div class="card-content">
+          <p>Active Life</p>
+        </div>
+      </div>
+      <div class="category">
+        <i class="material-icons">spa</i>
+        <div class="card-content">
+          <p>Beauty & Spas</p>
+        </div>
+      </div>
+      <div class="category">
+        <i class="material-icons">directions_car</i>
+        <div class="card-content">
+          <p>Automotive</p>
+        </div>
+      </div>
+      <div class="category">
+        <i class="material-icons">home_repair_service</i>
+        <div class="card-content">
+          <p>Home Services</p>
+        </div>
+      </div>
+      <div class="category">
+        <i class="material-icons">more_horiz</i>
+        <div class="card-content">
+          <p>More</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="main-footer">
+        <div class="about"></div>
+        <div class="discover"></div>
+        <div class="for-business"></div>
+      </div>
+      <div class="footer-settings">
+        <div class="languages"></div>
+        <div class="countries"></div>
       </div>
     </div>
   </body>

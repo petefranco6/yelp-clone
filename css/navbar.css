@@ -1,0 +1,81 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.navbar_right > a {
+    color: white;
+    width: 80%;
+}
+
+.navbar_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: auto 30px;
+    width: 33%;
+    height: 50px
+}
+
+.yelp-img {
+    width: 50%;
+
+}
+
+.search-btn {
+    width: 75px;
+    height: 50px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.search {
+    display: flex;
+    height: 50px;
+    width: 60%;
+
+}
+
+.search > input {
+    border: 0px;
+    width: 100%;
+}
+
+.search-input1 {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.login {
+    border-color: white;
+    background-color: transparent;
+    width: 25%;
+    height: 80%;
+    color: white;
+    border-radius: 5px;
+}
+
+.signup {
+    background-color: red;
+    width: 25%;
+    height: 80%;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.dropdowns {
+    padding-left: 210px;
+}
+
+.dropdowns > select {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.more {
+    width: 60px
+}
